@@ -11,8 +11,26 @@
 		F67FD1292811CF8C007828FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD1282811CF8C007828FB /* ContentView.swift */; };
 		F67FD12B2811CF8D007828FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67FD12A2811CF8D007828FB /* Assets.xcassets */; };
 		F67FD12E2811CF8D007828FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F67FD12D2811CF8D007828FB /* Preview Assets.xcassets */; };
-		F67FD1302811CF8D007828FB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD12F2811CF8D007828FB /* Persistence.swift */; };
-		F67FD1332811CF8D007828FB /* Avocados.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F67FD1312811CF8D007828FB /* Avocados.xcdatamodeld */; };
+		F67FD13E2811CFDD007828FB /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD13A2811CFDD007828FB /* HeaderModel.swift */; };
+		F67FD13F2811CFDD007828FB /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD13B2811CFDD007828FB /* FactModel.swift */; };
+		F67FD1402811CFDD007828FB /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD13C2811CFDD007828FB /* RecipeModel.swift */; };
+		F67FD1412811CFDD007828FB /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD13D2811CFDD007828FB /* RipeningModel.swift */; };
+		F67FD1472811CFE5007828FB /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD1432811CFE5007828FB /* RecipeData.swift */; };
+		F67FD1482811CFE5007828FB /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD1442811CFE5007828FB /* FactData.swift */; };
+		F67FD1492811CFE5007828FB /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD1452811CFE5007828FB /* HeaderData.swift */; };
+		F67FD14A2811CFE5007828FB /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD1462811CFE5007828FB /* RipeningData.swift */; };
+		F67FD14D2811D33F007828FB /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD14C2811D33F007828FB /* AvocadosView.swift */; };
+		F67FD14F2811D362007828FB /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD14E2811D362007828FB /* RipeningStagesView.swift */; };
+		F67FD1512811D374007828FB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD1502811D374007828FB /* SettingsView.swift */; };
+		F67FD1532811D38B007828FB /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD1522811D38B007828FB /* AppView.swift */; };
+		F67FD1562811DCF3007828FB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD1552811DCF3007828FB /* HeaderView.swift */; };
+		F67FD1582811F123007828FB /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD1572811F123007828FB /* DishesView.swift */; };
+		F67FD15A2811FFF7007828FB /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD1592811FFF7007828FB /* FactsView.swift */; };
+		F67FD15C2812031D007828FB /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD15B2812031D007828FB /* RecipeCardView.swift */; };
+		F67FD15E281212D2007828FB /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD15D281212D2007828FB /* RecipeRatingView.swift */; };
+		F67FD16028121374007828FB /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD15F28121374007828FB /* RecipeCookingView.swift */; };
+		F67FD162281213FC007828FB /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD161281213FC007828FB /* RecipeDetailView.swift */; };
+		F67FD16428122015007828FB /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67FD16328122015007828FB /* RipeningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +39,27 @@
 		F67FD1282811CF8C007828FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F67FD12A2811CF8D007828FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F67FD12D2811CF8D007828FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F67FD12F2811CF8D007828FB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		F67FD1322811CF8D007828FB /* Avocados.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Avocados.xcdatamodel; sourceTree = "<group>"; };
+		F67FD13A2811CFDD007828FB /* HeaderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		F67FD13B2811CFDD007828FB /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		F67FD13C2811CFDD007828FB /* RecipeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		F67FD13D2811CFDD007828FB /* RipeningModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		F67FD1432811CFE5007828FB /* RecipeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		F67FD1442811CFE5007828FB /* FactData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
+		F67FD1452811CFE5007828FB /* HeaderData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		F67FD1462811CFE5007828FB /* RipeningData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
+		F67FD14C2811D33F007828FB /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		F67FD14E2811D362007828FB /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		F67FD1502811D374007828FB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F67FD1522811D38B007828FB /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		F67FD1542811D5E1007828FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F67FD1552811DCF3007828FB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		F67FD1572811F123007828FB /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		F67FD1592811FFF7007828FB /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		F67FD15B2812031D007828FB /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
+		F67FD15D281212D2007828FB /* RecipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
+		F67FD15F28121374007828FB /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
+		F67FD161281213FC007828FB /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		F67FD16328122015007828FB /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +92,12 @@
 		F67FD1252811CF8C007828FB /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				F67FD1542811D5E1007828FB /* Info.plist */,
+				F67FD14B2811CFEA007828FB /* View */,
+				F67FD1422811CFE5007828FB /* Data */,
+				F67FD1392811CFDD007828FB /* Model */,
 				F67FD1262811CF8C007828FB /* AvocadosApp.swift */,
-				F67FD1282811CF8C007828FB /* ContentView.swift */,
 				F67FD12A2811CF8D007828FB /* Assets.xcassets */,
-				F67FD12F2811CF8D007828FB /* Persistence.swift */,
-				F67FD1312811CF8D007828FB /* Avocados.xcdatamodeld */,
 				F67FD12C2811CF8D007828FB /* Preview Content */,
 			);
 			path = Avocados;
@@ -71,6 +109,48 @@
 				F67FD12D2811CF8D007828FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F67FD1392811CFDD007828FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F67FD13A2811CFDD007828FB /* HeaderModel.swift */,
+				F67FD13B2811CFDD007828FB /* FactModel.swift */,
+				F67FD13C2811CFDD007828FB /* RecipeModel.swift */,
+				F67FD13D2811CFDD007828FB /* RipeningModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F67FD1422811CFE5007828FB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F67FD1432811CFE5007828FB /* RecipeData.swift */,
+				F67FD1442811CFE5007828FB /* FactData.swift */,
+				F67FD1452811CFE5007828FB /* HeaderData.swift */,
+				F67FD1462811CFE5007828FB /* RipeningData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F67FD14B2811CFEA007828FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F67FD1282811CF8C007828FB /* ContentView.swift */,
+				F67FD14C2811D33F007828FB /* AvocadosView.swift */,
+				F67FD1552811DCF3007828FB /* HeaderView.swift */,
+				F67FD14E2811D362007828FB /* RipeningStagesView.swift */,
+				F67FD1502811D374007828FB /* SettingsView.swift */,
+				F67FD1522811D38B007828FB /* AppView.swift */,
+				F67FD1572811F123007828FB /* DishesView.swift */,
+				F67FD1592811FFF7007828FB /* FactsView.swift */,
+				F67FD15B2812031D007828FB /* RecipeCardView.swift */,
+				F67FD15D281212D2007828FB /* RecipeRatingView.swift */,
+				F67FD15F28121374007828FB /* RecipeCookingView.swift */,
+				F67FD161281213FC007828FB /* RecipeDetailView.swift */,
+				F67FD16328122015007828FB /* RipeningView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +223,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F67FD1302811CF8D007828FB /* Persistence.swift in Sources */,
-				F67FD1332811CF8D007828FB /* Avocados.xcdatamodeld in Sources */,
+				F67FD1512811D374007828FB /* SettingsView.swift in Sources */,
+				F67FD15A2811FFF7007828FB /* FactsView.swift in Sources */,
+				F67FD16428122015007828FB /* RipeningView.swift in Sources */,
+				F67FD1492811CFE5007828FB /* HeaderData.swift in Sources */,
+				F67FD16028121374007828FB /* RecipeCookingView.swift in Sources */,
+				F67FD1402811CFDD007828FB /* RecipeModel.swift in Sources */,
+				F67FD14D2811D33F007828FB /* AvocadosView.swift in Sources */,
+				F67FD1532811D38B007828FB /* AppView.swift in Sources */,
+				F67FD162281213FC007828FB /* RecipeDetailView.swift in Sources */,
+				F67FD14A2811CFE5007828FB /* RipeningData.swift in Sources */,
+				F67FD1582811F123007828FB /* DishesView.swift in Sources */,
+				F67FD1412811CFDD007828FB /* RipeningModel.swift in Sources */,
 				F67FD1292811CF8C007828FB /* ContentView.swift in Sources */,
+				F67FD13F2811CFDD007828FB /* FactModel.swift in Sources */,
+				F67FD1472811CFE5007828FB /* RecipeData.swift in Sources */,
+				F67FD15E281212D2007828FB /* RecipeRatingView.swift in Sources */,
+				F67FD1562811DCF3007828FB /* HeaderView.swift in Sources */,
+				F67FD1482811CFE5007828FB /* FactData.swift in Sources */,
+				F67FD15C2812031D007828FB /* RecipeCardView.swift in Sources */,
+				F67FD14F2811D362007828FB /* RipeningStagesView.swift in Sources */,
 				F67FD1272811CF8C007828FB /* AvocadosApp.swift in Sources */,
+				F67FD13E2811CFDD007828FB /* HeaderModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +377,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Avocados/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avocados/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,9 +405,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Avocados/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Avocados/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -347,19 +445,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F67FD1312811CF8D007828FB /* Avocados.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F67FD1322811CF8D007828FB /* Avocados.xcdatamodel */,
-			);
-			currentVersion = F67FD1322811CF8D007828FB /* Avocados.xcdatamodel */;
-			path = Avocados.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F67FD11B2811CF8C007828FB /* Project object */;
 }
